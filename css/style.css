@@ -20,7 +20,7 @@ body {
 /* Logo */
 
 .logo {
-  font-family: Raleway sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -76,6 +76,8 @@ body {
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .button {
@@ -87,6 +89,8 @@ body {
   line-height: 1.9;
   align-items: center;
   cursor: pointer;
+
+  font-family: inherit;
 }
 /* Feuteres */
 .feuteres .feuteres-title {
@@ -115,6 +119,8 @@ body {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+
+  color: var(--secondary-text-color);
 }
 .team .worker-profecion {
   font-size: 16px;
@@ -125,9 +131,11 @@ body {
 /* Footer */
 .footer-section {
   background-color: var(--third-background-color);
+  font-style: normal;
 }
 .footer-section .address-head {
   color: var(--primary-white-color);
+  font-style: normal;
 }
 .footer-section .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
@@ -139,12 +147,21 @@ body {
 .link {
   text-decoration: none;
 }
-
+.footer-logo {
+  color: var(--primary-white-color);
+}
 /* Portfolio */
+/* Button portfolio */
 .button-portfolio {
   color: var(--secondary-text-color);
   background-color: var(--secondary-bacground-color);
   cursor: pointer;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
@@ -163,4 +180,5 @@ body {
 
 .projects-section {
   line-height: 1.8;
+  color: var(--primary-text-color);
 }
