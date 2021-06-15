@@ -92,6 +92,10 @@ body {
 
   font-family: inherit;
 }
+.button:hover {
+  background-color: #188ce8;
+}
+
 /* Feuteres */
 .feuteres .feuteres-title {
   color: var(--secondary-text-color);
