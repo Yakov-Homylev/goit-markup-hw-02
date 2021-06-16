@@ -69,6 +69,7 @@ body {
 /* Hero */
 .hero {
   background-color: var(--third-background-color);
+  text-align: center;
 }
 .hero-title {
   color: var(--primary-white-color);
@@ -173,6 +174,7 @@ body {
   color: var(--primary-white-color);
 }
 
+/* Portfolio section */
 .name-projects {
   color: var(--secondary-text-color);
 
